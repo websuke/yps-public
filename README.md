@@ -47,4 +47,6 @@ yotaroさん曰くweb系のエンジニアであれば最低限のスキルら�
 
 んで間違いがあれば逆に教えていただけると幸いです。
 
+ちなみに **MacOS** です！！
+
 ### [■　yotaroさんのgithubはこちら](https://github.com/yotaro-ok/yps)
