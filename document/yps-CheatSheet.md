@@ -52,3 +52,22 @@ config('database.connections.mysql.port');
 ```bash
 config('database.connections.mysql.password');
 ```
+***
+## 設定の変更方法
+```bash
+sudo vi /etc/nginx/conf.d/default.conf
+```
+- 切り替えたい方の root 記載行の # を削除して保存終了
+
+        # Laravel
+        # root /var/www/html/yps/public;
+
+        # WordPress
+        # root /var/www/html/wwpp;
+
+
+- 再起動
+```bash
+sudo systemctl restart php-fpm
+sudo systemctl restart nginx
+```
